@@ -15,7 +15,7 @@ Source0:	https://github.com/simd-everywhere/simde/archive/v%{version}/%{name}-%{
 URL:		https://github.com/simd-everywhere/simde
 BuildRequires:	meson >= 0.54.0
 BuildRequires:	ninja >= 1.5
-BuildRequires:	rpmbuild(macros) >= 1.736
+BuildRequires:	rpmbuild(macros) >= 2.042
 # header-only
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
